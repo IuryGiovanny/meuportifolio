@@ -1,0 +1,81 @@
+/* Portfolio.css */
+
+/* Container do portfólio */
+.portfolio-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Título principal */
+  .portfolio-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  /* Lista de projetos usando Flexbox */
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando necessário */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os cards */
+  }
+  
+  /* Cartão do projeto */
+  .project-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura fixa para os cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagem do projeto */
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Nome do projeto */
+  .project-card h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Descrição do projeto */
+  .project-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Links para GitHub e Demo */
+  .project-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .project-link {
+    font-size: 1rem;
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    color: #0056b3;
+  }
+  

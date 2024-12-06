@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Gestao de sistemas de usuario",
+    "description": "Sistema para controlar usuarios",
+    "image": "src/assets/image/lista.png",
+    "github": "https://github.com/IuryGiovanny/gestao-de-usuario"
+  },  
+  {
+      "name": "Jogo da velha",
+      "description": "Jogo da velha em react",
+      "image": "src/assets/image/jogodavelha.png",
+      "github": "https://github.com/usuario/projeto1"
+    },
+    {
+      "name": "Lista de Tarefa",
+      "description": "Projeto para criação de uma lista de tarefa simples",
+      "image": "src/assets/image/todo.png",
+      "github": "https://github.com/IuryGiovanny/listadetarefas"
+    },
+    {
+      "name": "Pokedex",
+      "description": "Lista de todos os pokemons com a API pokeapi.co",
+      "image": "src/assets/image/pokedex.png",
+      "github": "https://github.com/IuryGiovanny/pokedex"
+    }   
+]
+  

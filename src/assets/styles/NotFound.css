@@ -1,0 +1,14 @@
+.container {
+    text-align: 'center';
+    margin-top: '50px';
+}
+
+.heading {
+    font-size: '2rem';
+    color: '#ff6347';
+}
+.link {
+    color: '#1e90ff';
+    text-decoration: 'none';
+    font-size: '1.2rem';
+}
