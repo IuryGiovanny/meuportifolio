@@ -1,5 +1,6 @@
 {
-  "name": "meu-portfolio",
+  "homepage":"https://iurygiovanny.github.io/meuportifolio",
+  "name": "meuportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://iurygiovanny.github.io",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
