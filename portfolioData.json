@@ -38,35 +38,35 @@
   {
     "name": "Figma Aplicativo EcoAqua",
     "description": "Aplicativo EcoAqua",
-    "image": "src/assets/image/ecoaqua.png",
+    "image": "/meuportifolio/src/assets/image/ecoaqua.png",
     "github": null,
     "tipo": "figma"
   }, 
   {
     "name": "Gestao de sistemas de usuario",
     "description": "Sistema para controlar usuarios",
-    "image": "src/assets/image/lista.png",
+    "image": "/meuportifolio/src/assets/image/lista.png",
     "github": "https://github.com/IuryGiovanny/gestao-de-usuario",
     "tipo": "github"
   },  
   {
       "name": "Jogo da velha",
       "description": "Jogo da velha em react",
-      "image": "src/assets/image/jogodavelha.png",
+      "image": "/meuportifolio/src/assets/image/jogodavelha.png",
       "github": "https://github.com/usuario/projeto1",
       "tipo": "github"
     },
     {
       "name": "Lista de Tarefa",
       "description": "Projeto para criação de uma lista de tarefa simples",
-      "image": "src/assets/image/todo.png",
+      "image": "/meuportifolio/src/assets/image/todo.png",
       "github": "https://github.com/IuryGiovanny/listadetarefas",
       "tipo": "github"
     },
     {
       "name": "Pokedex",
       "description": "Lista de todos os pokemons com a API pokeapi.co",
-      "image": "src/assets/image/pokedex.png",
+      "image": "/meuportifolio/src/assets/image/pokedex.png",
       "github": "https://github.com/IuryGiovanny/pokedex",
       "tipo": "github"
     }
