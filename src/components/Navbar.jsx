@@ -16,9 +16,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <ul className="nav-list">
-          <li className="nav-item"><a href="/">Home</a></li>
-          <li className="nav-item"><a href="/portfolio">Portfólio</a></li>
-          <li className="nav-item"><a href="/contact">Contato</a></li>
+          <li className="nav-item"><a href="/meuportifolio/">Home</a></li>
+          <li className="nav-item"><a href="/meuportifolio/portfolio">Portfólio</a></li>
+          <li className="nav-item"><a href="/meuportifolio/contact">Contato</a></li>
         </ul>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
