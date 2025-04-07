@@ -59,7 +59,7 @@
     {
       "name": "Lista de Tarefa",
       "description": "Projeto para criação de uma lista de tarefa simples",
-      "image": "/meuportifolio/src/assets/image/todo.png",
+      "image": "src/assets/image/todo.png",
       "github": "https://github.com/IuryGiovanny/listadetarefas",
       "tipo": "github"
     },
