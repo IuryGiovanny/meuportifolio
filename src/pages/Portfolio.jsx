@@ -19,7 +19,7 @@ function Portfolio() {
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             {project.image ? (
-                <img src={project.image} alt={project.name} className="project-image" />) 
+                <img src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.name} className="project-image" />) 
               : (<span> </span>)
             }
             <h2>{project.name}</h2>

@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -12,19 +12,18 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-        <Router >
-          <Routes>
-            <Route path="/meuportifolio/" element={<Home />} />
-            <Route path="/meuportifolio/portfolio" element={<Portfolio />} />
-            <Route path="/meuportifolio/contact" element={<Contact />} />
-
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </Router>
-      <Footer />
-    </div>
+    <Router >
+      <div>
+        <Header />
+            <Routes>
+              <Route path="/meuportifolio/" element={<Home />} />
+              <Route path="/meuportifolio/meusprojetos" element={<Portfolio />} />
+              <Route path="/meuportifolio/contato" element={<Contact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 
