@@ -36,6 +36,13 @@
   }, 
 
   {
+    "name": "Figma Aplicativo EcoAqua",
+    "description": "Aplicativo EcoAqua",
+    "image": "/assets/image/ecoaqua.png",
+    "github": null,
+    "tipo": "figma"
+  }, 
+  {
     "name": "Gestao de sistemas de usuario",
     "description": "Sistema para controlar usuarios",
     "image": null,
