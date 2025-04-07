@@ -45,21 +45,21 @@
   {
     "name": "Gestao de sistemas de usuario",
     "description": "Sistema para controlar usuarios",
-    "image": null,
+    "image": "/meuportifolio/assets/image/cadastro.png",
     "github": "https://github.com/IuryGiovanny/gestao-de-usuario",
     "tipo": "github"
   },  
   {
     "name": "Lista de Tarefa",
     "description": "Projeto para criação de uma lista de tarefa simples",
-    "image":  null,
+    "image":  "/meuportifolio/assets/image/todo.png",
     "github": "https://github.com/IuryGiovanny/listadetarefas",
     "tipo": "github"
   },
   {
     "name": "Pokedex",
     "description": "Lista de todos os pokemons com a API pokeapi.co",
-    "image": null,
+    "image": "/meuportifolio/assets/image/pokedex.png",
     "github": "https://github.com/IuryGiovanny/pokedex",
     "tipo": "github"
   }
