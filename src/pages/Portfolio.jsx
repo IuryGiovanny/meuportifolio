@@ -6,7 +6,7 @@ function Portfolio() {
 
   // Carregar os dados do JSON
   useEffect(() => {
-    fetch('/portfolioData.json')
+    fetch('/meuportifolio/portfolioData.json')
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Erro ao carregar os dados do portfólio:', error));
