@@ -31,7 +31,8 @@ function Portfolio() {
                 )}
                
               </a>
-            ): (<span> </span>)}
+            ): (<span> </span>)
+            }
             </div>
           </div>
         ))}
