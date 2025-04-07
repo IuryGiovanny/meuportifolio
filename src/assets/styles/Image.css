@@ -1,0 +1,43 @@
+  
+/* src/components/Imagem.css */
+
+/* Estilos para o container */
+.imagem-container {
+    display: flex;
+    align-items: center;  /* Alinha verticalmente a imagem e o texto */
+    justify-content: flex-start;  /* Alinha horizontalmente ao início (padrão) */
+    gap: 20px;  /* Espaçamento entre a imagem e o texto */
+    margin: 20px; /* Margem ao redor do container */
+  }
+  
+  /* Estilos para a imagem */
+  .imagem {
+    width: 200px;  /* Tamanho fixo da imagem */
+    height: auto;  /* Manter a proporção da imagem */
+    border-radius: 8px; /* Borda arredondada na imagem */
+  }
+  
+  /* Estilos para o texto */
+  .texto h1 {
+    font-size: 2rem;  /* Tamanho do nome */
+    margin: 0;  /* Remove a margem padrão do h1 */
+  }
+  
+  .texto p {
+    font-size: 1.2rem;  /* Tamanho do texto */
+    color: #666;  /* Cor do texto */
+  }
+  
+  /* Media Query para telas pequenas (celulares) */
+  @media (max-width: 768px) {
+    .imagem-container {
+      flex-direction: column;  /* Empilha a imagem e o texto verticalmente em telas pequenas */
+      align-items: center;  /* Centraliza o conteúdo */
+      gap: 10px;  /* Menor espaçamento entre a imagem e o texto */
+    }
+  
+    .imagem {
+      width: 150px;  /* Menor tamanho da imagem para dispositivos móveis */
+    }
+  }
+  

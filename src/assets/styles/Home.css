@@ -1,0 +1,87 @@
+/* src/pages/Home.css */
+
+/* Estilo para o contêiner principal */
+.home-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Parágrafo */
+  p {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Section com cards */
+  .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para cada card */
+  .card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilos para os cabeçalhos dentro dos cards */
+  .card h2 {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  /* Estilos para os parágrafos dentro dos cards */
+  .card p {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  /* Efeito de hover para os cards */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query para dispositivos pequenos (smartphones) */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem; /* Ajusta o tamanho do título */
+    }
+  
+    .content-section {
+      flex-direction: column; /* Empilha os cards verticalmente em telas pequenas */
+      align-items: center;
+    }
+  
+    .card {
+      width: 80%; /* Os cards ocupam 80% da largura da tela em dispositivos pequenos */
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Media query para dispositivos muito pequenos (como celulares em modo retrato) */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2rem; /* Reduz ainda mais o tamanho do título em telas muito pequenas */
+    }
+  
+    .card {
+      width: 100%; /* Os cards ocupam toda a largura em telas menores que 480px */
+    }
+  }
+  

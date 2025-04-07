@@ -1,0 +1,82 @@
+/* src/Header.css */
+
+/* Estilos gerais do Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Garante que o header fique acima do conteúdo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destacar o header */
+}
+
+/* Logo */
+.header .logo h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #f1c40f; /* Cor dourada */
+}
+
+/* Navegação */
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #f1c40f; /* Efeito de hover dourado */
+}
+.nav-right {
+  margin-right: 49px;
+}
+
+/* Informações de Contato */
+.contact-info {
+  font-size: 14px;
+  display: none; /* Ocultar no mobile */
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .contact-info {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+/* Garantir que o conteúdo abaixo do header não fique escondido */
+.main-content {
+  padding-top: 80px; /* Ajuste a altura do padding conforme a altura do seu header */
+}
