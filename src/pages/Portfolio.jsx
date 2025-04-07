@@ -22,9 +22,16 @@ function Portfolio() {
             <h2>{project.name}</h2>
             <p>{project.description}</p>
             <div className="project-links">
+            {project.github  ? (
               <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
-                Ver no GitHub
+              {project.tipo =='github' ? (
+                  <span>Ver no GitHub</span>
+                ) : (
+                  <span>Ver no figma</span>
+                )}
+               
               </a>
+            ): (<span> </span>)}
             </div>
           </div>
         ))}
