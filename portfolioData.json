@@ -50,25 +50,18 @@
     "tipo": "github"
   },  
   {
-      "name": "Jogo da velha",
-      "description": "Jogo da velha em react",
-      "image": "/assets/image/jogodavelha.png",
-      "github": "https://github.com/usuario/projeto1",
-      "tipo": "github"
-    },
-    {
-      "name": "Lista de Tarefa",
-      "description": "Projeto para criação de uma lista de tarefa simples",
-      "image": "/assets/image/todo.png",
-      "github": "https://github.com/IuryGiovanny/listadetarefas",
-      "tipo": "github"
-    },
-    {
-      "name": "Pokedex",
-      "description": "Lista de todos os pokemons com a API pokeapi.co",
-      "image": "public/assets/image/pokedex.png",
-      "github": "https://github.com/IuryGiovanny/pokedex",
-      "tipo": "github"
-    }
+    "name": "Lista de Tarefa",
+    "description": "Projeto para criação de uma lista de tarefa simples",
+    "image": "/assets/image/todo.png",
+    "github": "https://github.com/IuryGiovanny/listadetarefas",
+    "tipo": "github"
+  },
+  {
+    "name": "Pokedex",
+    "description": "Lista de todos os pokemons com a API pokeapi.co",
+    "image": "public/assets/image/pokedex.png",
+    "github": "https://github.com/IuryGiovanny/pokedex",
+    "tipo": "github"
+  }
 ]
   
